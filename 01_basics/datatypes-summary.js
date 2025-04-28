@@ -26,7 +26,26 @@ const myFunction = function(){
 
 // console.table([fruits, myObj, myFunction()])
 
-console.log(typeof myFunction)
+// console.log(typeof myFunction) // function
 
 // javascript is a dynamically typed language
 
+// stack (Primitive), Heap (Non-Primitive)
+
+let name1 = "Aamir"
+let name2 = name1
+name2 = "Ahmed"
+
+// console.log(name1, name2)
+
+let userOne = {
+    name: "Aamir",
+    age: 22
+}
+
+let userTwo = userOne
+
+userTwo.name = "Ahmed"
+userOne.age = -1
+
+console.table([userOne, userTwo])
