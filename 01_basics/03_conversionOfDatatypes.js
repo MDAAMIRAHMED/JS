@@ -52,9 +52,9 @@ let str2 = "world"
 let str3 = str1 + " " + str2
 // console.log(str3)
 
-// console.log(-true)
-// console.log(+false)
-// console.log(+"")
+// console.log(-true) // -1
+// console.log(+false) // 0
+// console.log(+"") // 0
 
 let num1, num2, num3
 num1 = num2 = num3 = 4
